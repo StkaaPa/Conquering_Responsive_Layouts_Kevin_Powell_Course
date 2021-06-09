@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  background: #23424a;
+  color: white;
+
+  width: 80%;
+  margin: 0 auto;
+
+  padding: 2em;
+  /*remove height: 300px
+  to stop text from overflowing
+  */
+}
+
+/*insert the class intro-content and define width: 40% which is a half of it´s parent*/
+.intro-content {
+  width: 40%;
+}
