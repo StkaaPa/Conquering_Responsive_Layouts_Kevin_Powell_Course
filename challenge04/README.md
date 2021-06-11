@@ -1,1 +1,1 @@
-# Display Flexbox challenge 01
+# Flexbox challenge 01
