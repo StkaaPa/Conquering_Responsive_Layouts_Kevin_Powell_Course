@@ -5,24 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
     <header>
       <div class="container row">
-        <button></button>
-        <a href="" class="logo"><img src="img/logo.svg" /></a>
-        <div class="nav">
-          <div class="nav-list">
-            <ul>
-              <li class="nav-item"><a href="#">home</a></li>
-              <li class="nav-item"><a href="#">about</a></li>
-              <li class="nav-item"><a href="#">contact</a></li>
-              <li class="nav-item"><a href="#">Sign In</a></li>
-              <li class="nav-item"><a href="#" class="btn">Sign Up</a></li>
-            </ul>
-          </div>
-        </div>
+        <button class="nav-toggle" aria-label="open navigation">
+          <span class="hamburger"></span>
+        </button>
+        <a class="logo" href="#">
+          <img src="img/logo.svg" alt="conquering responsive layouts" />
+        </a>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Sign In</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link nav-link--button">Sign up</a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
     <section class="intro">
@@ -35,7 +44,7 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-          <a href="#" class="btn btn--secondary">I want to learn</a>
+          <a href="#" class="btn">I want to learn</a>
         </div>
       </div>
     </section>
