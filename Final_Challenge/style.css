@@ -18,6 +18,7 @@ header {
 
 img {
   max-width: 100%;
+  margin: 1em 0;
 }
 
 span {
@@ -25,7 +26,7 @@ span {
 }
 
 .container {
-  width: 85%;
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -62,16 +63,101 @@ span {
   font-family: "Oswald", sans-serif;
   font-weight: bold;
   width: 75%;
+  line-height: 1;
 }
 
 .intro_text_secondary {
   font-size: 1.6rem;
   font-family: "Montserrat", sans-serif;
   align-self: flex-end;
-  margin-bottom: 3em;
+  margin-bottom: 2.5em;
+  line-height: 1.5;
 }
 
 .btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  background: #a59678;
+  padding: 0.25em 1.5em;
+  border-radius: 100px;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.content {
+  text-align: center;
+  background: #ececec;
+  padding: 5em 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+.col-tittle {
+  font-family: "Oswald", sans-serif;
+  color: #a59678;
+  font-size: 1.87rem;
+  font-weight: bold;
+}
+
+.main {
+  padding: 5em 0;
+}
+
+.primary-content {
+  font-size: 1.32rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+}
+
+.section-tittle {
+  font-size: 2.8rem;
+  font-family: "Oswald", sans-serif;
+  color: #a59678;
+}
+
+.sidebar {
+  text-align: center;
+}
+
+.sidebar-one {
+  background: #3b4050;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  padding: 1.5em 2.8em;
+  margin: 2em 0;
+  line-height: 1.5;
+}
+
+.sidebar-tittle {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 1.87rem;
+  margin: 0;
+}
+
+.footer {
+  padding: 3em 0;
+  background: #3b4050;
+  color: #fff;
+  line-height: 2;
+}
+
+.footer-tittle {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 4rem;
+  margin: 0 0 0.5em 0;
+}
+
+.footer-tittle-one {
+  color: #a59678;
+  font-size: 1.3rem;
+  font-family: "Oswald", sans-serif;
 }
 
 @media (min-width: 1000px) {
@@ -100,7 +186,24 @@ span {
   .nav-item {
     margin: 0 0 0 2em;
   }
-}
 
-/*font-family: 'Montserrat', sans-serif;
-font-family: 'Oswald', sans-serif;*/
+  .primary-content {
+    width: 60%;
+  }
+
+  .sidebar {
+    width: 32%;
+  }
+
+  .footer .container {
+    width: 100%;
+  }
+
+  .col + .col {
+    margin-left: 5.5em;
+  }
+
+  .coluna-primary {
+    width: 35%;
+  }
+}
